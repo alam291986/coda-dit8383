@@ -1,0 +1,306 @@
+/*global css*/
+*{
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+    box-sizing: border-box;
+    font-family:'Titillium Web', sans-serif;
+}
+section{
+    text-align: center;
+    padding: 75px;
+}
+.writing-part{
+    margin-bottom: 35px;
+}
+.writing-part p{
+    width: 40%;
+    margin: auto;
+}
+.heading{
+    font-size: 45px;
+    line-height: 45px;
+    font-weight: 600px;
+}
+.sub-heading{
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 200px;
+    text-transform: uppercase;
+    margin: 10px 10px;
+}
+.underline{
+    border-top: 5px solid #7e8d92;
+    width: 15% !important;
+    margin: 25px auto !important;
+}
+P{
+    font-size: 18px;
+    font-weight: 300px;
+    line-height: 30px;
+    margin-bottom: 0px;
+}
+.box{
+    padding: 10px 40px;
+}
+.Box-part p{
+    width: 360px;
+}
+
+.btn{
+    width: 200px;
+    font-size: 16px;
+    padding: 16px;
+    text-transform: uppercase;
+    border: none;
+    
+}
+/*layout*/
+.container{
+   width: 90%;
+   margin: auto;
+}
+.row{
+    width: 100%;
+    float: left;
+    padding-bottom: 30px;
+}
+[class*=col]{float:left}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+/*header part*/
+header{
+    background-color: #87509c;
+    color: aliceblue;
+}
+nav{
+    padding: 10px 0px;
+}
+.menu-part{
+    text-align: right;
+    padding: 10px 0px;
+}
+.menu-part li{
+    display: inline-block;
+    margin: 0px 5px;
+}
+.menu-part li a {
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 5px 20px;
+    text-decoration: none;
+    color: aliceblue;
+}
+.menu-part li a:hover{
+    background-color: #643a79;
+    border-radius: 5px;
+}
+.hero-part{
+    text-align: center;
+    padding: 100px 150px;
+}
+.hero-part h1{
+    font-size: 55px;
+    line-height: 65px;
+    padding: 50px;
+}
+.hero-part .btn{
+    background-color: #eb7d4b;
+    border-radius: 5px;
+}
+.hero-part .btn:hover{
+    background-color:#eb7d4b ;
+    color: aliceblue;
+    border-radius: 5px;
+}
+/*Service Section*/
+#Service {
+    background-color: #17c2a4;
+    color: aliceblue;
+}
+.Box-part img{
+    height: 150px;
+}
+/*team section*/
+#team{
+    background-color: #ccdeeb;
+    color: #3c4761;
+}
+#team .box .sub-heading{
+    margin-bottom: 20px;
+}
+.title{
+color: #30bae7;
+font-size: 20px;
+margin-bottom: 25px;
+}
+.team-icon-box{
+    margin: 20px;
+}
+.team-icon-box i{
+    font-size: 20px;
+    padding: 10px;
+    width: 40px;
+    border-radius: 50px;
+    background-color: #99b4c7;
+    color: aliceblue;
+}
+.team-icon-box i:hover{
+    font-size: 20px;
+    padding: 10px;
+    width: 40px;
+    border-radius: 50px;
+    background-color: #69a4ce;
+    color: aliceblue;
+}
+/*skil section*/
+#skil{
+    color: #3c4761;
+}
+#skil .sub-heading{
+    font-size: 26px;
+}
+/*portfolio section*/
+#portfolio{
+    background-color: #ffdd99;
+    color: #3c4761;
+}
+#portfolio .sub-heading{
+    font-size: 25px;
+    font-style: normal;
+}
+.portfolio button{
+    width: 70px;
+    height: 35px;
+    border-radius:5px;
+    background-color: #ebc985;
+    border: none;
+    color:#3c4761 ;
+    text-transform: uppercase;
+}
+.portfolio button:hover{
+    width: 70px;
+    height: 35px;
+    border-radius: 5px;
+    background-color:aliceblue;
+    border:none;
+    color:#3c4761 ;
+    text-transform: uppercase;
+}
+.portfolio button{
+    margin: 25px 10px;
+}
+#portfolio .btn{
+    background-color: #17c2a4;
+    border-radius: 5px;
+}
+#portfolio .btn:hover{
+    background-color: #17c2a4;
+    color: aliceblue;
+    border-radius: 5px;
+}
+/*about section*/
+#about{
+    background-color: #d74680;
+    color:aliceblue;
+}
+#about .box {
+    text-align:left;
+}
+#about .sub-heading{
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 200px;
+    text-transform: uppercase;
+    margin: 5px 0px;
+}
+#about .container{
+    width: 80%;
+    margin: auto;
+}
+/*Contact section*/
+#Contact{
+    background-color: #3c5499;
+    color:aliceblue ;
+}
+form{
+    width: 90%;
+    margin: auto;
+}
+.name{
+    background-color: #273a71;
+    border: none;
+    border-radius: 5px;
+    color: aliceblue; 
+    width: 300px;
+    height: 35px;
+    margin:auto;
+    padding: 20px;}
+.mail{
+    background-color: #273a71;
+    border: none;
+    border-radius: 5px;
+    color: aliceblue; 
+    width: 300px;
+    height: 35px;
+    margin:auto;
+    padding: 20px;}
+textarea{
+    background-color: #273a71;
+    border: none;
+    border-radius: 5px;
+    color: aliceblue; 
+    margin:auto;
+    padding: 20px;}
+
+
+#Contact  .btn{
+    background-color: #30bae7;
+    border-radius: 5px;
+}
+#Contact  .btn:hover{
+    background-color: #30bae7;
+    color: aliceblue;
+    border-radius: 5px;
+}
+
+/*footer part*/
+footer{
+    background-color: #344b8e;
+    color: aliceblue;
+}
+.footer-part{
+    text-align: center;
+    font-size: 26px;
+    padding: 20px;
+   
+}
+.footer-part li{
+    display: inline-block;
+    margin: 20px 30px;
+}
+.footer-part li a{
+padding: 20px 20px;
+text-transform: uppercase;
+text-decoration: none;
+color: aliceblue;
+}   
+.footer-part li a:hover{
+    padding: 20px 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #30bae7;
+}
+    
